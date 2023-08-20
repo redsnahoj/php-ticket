@@ -44,4 +44,7 @@ if ($_POST) {
     <br>
     <button type="submit">Enviar</button>
 </form>
+<?php } else {?>
+    <p>PHP Ticket se ha conectado correctamente a la base de datos.</p>
+    <a href="install.php">Comenzar instalación</a>
 <?php } ?>
